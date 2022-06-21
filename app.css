@@ -1,0 +1,101 @@
+body {
+    background-color: #C3A995;
+    font-family: "Poppins", sans-serif;
+}
+
+#mainNavbar .navbar-brand {
+    color: #593D3B;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: #FFFFFF;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #593D3B;
+}
+
+#headingGroup span {
+    color: #593D3B;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.blurb h2 {
+    color:#593D3B;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #6F5E53;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.navbar.scrolled {
+    background: #ab947ed3;
+    transition: background 300ms;
+}
+
+.icon {
+    max-width: 100px;
+}
+
+.link-footer {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.link-footer:hover {
+    text-decoration: none;
+    color: #C3A995;
+    transition: 0.5s;
+}
+
+.list li {
+    list-style:square;
+    text-align: left;
+}
+
+.btn-tks {
+    background-color: #593D3B;
+    color: #FFFFFF;
+}
+
+.btn-tks:hover {
+    color: #ab947ed3;
+}
+
+footer {
+    background-color: #0000008a;
+}
+
+.footer-copyright {
+    color: #FFFFFF;
+    font-size: 0.7rem;
+}
+
+@media (max-width:1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
+    
+}
