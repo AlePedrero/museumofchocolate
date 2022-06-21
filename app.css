@@ -69,6 +69,13 @@ body {
     transition: 0.5s;
 }
 
+.list {
+    color: #6F5E53;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
 .list li {
     list-style:square;
     text-align: left;
